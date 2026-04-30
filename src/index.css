@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Unkempt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Oleo+Script:wght@400;700&family=Unkempt:wght@400;700&display=swap');
 
 body {
   margin: 0;
@@ -34,18 +34,24 @@ body {
   color: blue;
   font-family: var(--title);
 }
+.info h1{
+  font-size: 35px;
+}
 .info{
   color: grey;
-  font-weight: 900;
-  font-family: "Unkempt", cursive;
-}
-.info p{
   font-size: 35px;
-  font-family: "Unkempt", cursive;
+  font-weight: 600;
+  font-family: "Oleo Script", system-ui;
 }
 .list{
   text-align: right;
   margin-right: 20%;
+}
+h3{
+  font-style: italic;
+  font-size: 25px;
+  color: blue;
+  font-size: 100;
 }
 h2{
   font-size: 35px;

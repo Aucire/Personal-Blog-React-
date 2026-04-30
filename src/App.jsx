@@ -14,16 +14,19 @@ const App=()=>{
     const posts=[
         {
             id:1,
+            details: "january 14th, 2026 ~ ☕️ 3 min read",
             title:"THE HYPER TEXT MARK-UP LANGUAGE",
             content:"HTML is the foundational markup language that semantically structures and hierarchically organizes digital content and interactive web experiences.",
         },
         {
             id:2,
+            details:"february 14th, 2026 ~ ☕️☕️☕️☕️ 23 min read",
             title:"THE CASCADING STYLE SHEETS",
             content:"CSS is a declarative styling language that meticulously orchestrates the visual presentation, spatial layout,and adaptive rendering across diverse devices and screen contexts.",
         },
         {
             id:3,
+            details:"march 14th, 2026 ~ 🍱🍱🍱🍱 35 min read",
             title:"THE VANILLA JAVASCRIPT",
             content:"JavaScript is a high-level, event-driven programming language that dynamicallyorchestrates logic, interactivity, and asynchronous operations within web environments, enabling real-time manipulation of the DOM",
         }]

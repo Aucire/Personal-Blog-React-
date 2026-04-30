@@ -8,6 +8,7 @@ const ArticleLists=({posts})=>{
                 <Articles         
                     title={post.title}
                     content={post.content}
+                    details={post.details}
                 />
             ))}               
         </main>
