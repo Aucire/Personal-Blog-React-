@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Unkempt:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0a0a0a;
+  background-image:
+    linear-gradient(rgba(255, 253, 253, 0.05) 2px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 2px, transparent 1px);
+  background-size: 70px 70px;
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  font-weight: 800;
+  font-family: "Chewy", system-ui;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.about img{
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+}
+.about span{
+  color: blue;
+  font-family: var(--title);
+}
+.info{
+  color: grey;
+  font-weight: 900;
+  font-family: "Unkempt", cursive;
+}
+.info p{
+  font-size: 35px;
+  font-family: "Unkempt", cursive;
+}
+.list{
+  text-align: right;
+  margin-right: 20%;
+}
+h2{
+  font-size: 35px;
+  color: red;
+  font-family: "Chewy", system-ui;
+}
+.article{
+  margin: 80px 0;
+}
+.article p{
+  color: #818181;
+  margin-left: 25%;
+  font-family: var(--par);
+  font-size: 30px;
+  font-family: "Unkempt", cursive;
+  font-weight: 600;
+}
